@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | Restaurant POS</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ======================
+        SIDEBAR
+======================= -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <h2>🍽 POS</h2>
+
+    </div>
+
+    <nav class="menu">
+
+        <a href="#" class="active">
+
+            <i class="fa-solid fa-house"></i>
+
+            Dashboard
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-cash-register"></i>
+
+            POS Billing
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-box"></i>
+
+            Products
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-clipboard-list"></i>
+
+            Orders
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-chair"></i>
+
+            Tables
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-users"></i>
+
+            Customers
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-kitchen-set"></i>
+
+            Kitchen
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            Reports
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-gear"></i>
+
+            Settings
+
+        </a>
+
+        <a href="#">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </a>
+
+    </nav>
+
+</aside>
+
+<!-- ======================
+      MAIN CONTENT
+======================= -->
+
+<main class="main">
+
+<!-- ======================
+        NAVBAR
+======================= -->
+
+<header class="navbar">
+
+<div class="nav-left">
+
+<h2>Dashboard</h2>
+
+<p>
+
+Welcome Back, Admin 👋
+
+</p>
+
+</div>
+
+<div class="nav-right">
+
+<div class="search-box">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<input
+type="text"
+placeholder="Search...">
+
+</div>
+
+<div class="notification">
+
+<i class="fa-solid fa-bell"></i>
+
+<span>5</span>
+
+</div>
+
+<div class="avatar">
+
+A
+
+</div>
+
+</div>
+
+</header>
+
+<section class="container section">
+
+<h1 class="title">
+
+Restaurant Overview
+
+</h1>
+<!-- ==========================
+        STATISTICS CARDS
+========================== -->
+
+<div class="dashboard-cards">
+
+    <div class="stat-card">
+
+        <h3>Total Orders</h3>
+
+        <h1>245</h1>
+
+        <span class="badge badge-success">
+
+            +12% Today
+
+        </span>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>Today's Revenue</h3>
+
+        <h1>₹18,650</h1>
+
+        <span class="badge badge-success">
+
+            +8% Today
+
+        </span>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>Occupied Tables</h3>
+
+        <h1>18 / 25</h1>
+
+        <span class="badge badge-warning">
+
+            Busy
+
+        </span>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h3>Pending Orders</h3>
+
+        <h1>9</h1>
+
+        <span class="badge badge-danger">
+
+            Waiting
+
+        </span>
+
+    </div>
+
+</div>
+
+<!-- ==========================
+        RECENT ORDERS
+========================== -->
+
+<div class="card mt-40">
+
+    <div class="flex justify-between align-center">
+
+        <h2>Recent Orders</h2>
+
+        <button class="btn">
+
+            View All
+
+        </button>
+
+    </div>
+
+    <table class="mt-20">
+
+        <thead>
+
+            <tr>
+
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Table</th>
+                <th>Total</th>
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td>#1001</td>
+                <td>Rahul</td>
+                <td>T-05</td>
+                <td>₹850</td>
+
+                <td>
+
+                    <span class="badge badge-success">
+
+                        Completed
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>#1002</td>
+                <td>Ali</td>
+                <td>T-02</td>
+                <td>₹540</td>
+
+                <td>
+
+                    <span class="badge badge-warning">
+
+                        Preparing
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>#1003</td>
+                <td>Aman</td>
+                <td>T-09</td>
+                <td>₹1260</td>
+
+                <td>
+
+                    <span class="badge badge-danger">
+
+                        Pending
+
+                    </span>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+<!-- ==========================
+        DASHBOARD GRID
+========================== -->
+
+<div class="grid grid-2 gap-20 mt-40">
+
+    <!-- ==========================
+            TABLE STATUS
+    ========================== -->
+
+    <div class="card">
+
+        <div class="flex justify-between align-center mb-20">
+
+            <h2>Table Status</h2>
+
+            <span class="badge badge-success">
+
+                Live
+
+            </span>
+
+        </div>
+
+        <div class="table-grid">
+
+            <div class="table-card available">
+
+                <h3>T-01</h3>
+
+                <p>Available</p>
+
+            </div>
+
+            <div class="table-card occupied">
+
+                <h3>T-02</h3>
+
+                <p>Occupied</p>
+
+            </div>
+
+            <div class="table-card occupied">
+
+                <h3>T-03</h3>
+
+                <p>Occupied</p>
+
+            </div>
+
+            <div class="table-card available">
+
+                <h3>T-04</h3>
+
+                <p>Available</p>
+
+            </div>
+
+            <div class="table-card occupied">
+
+                <h3>T-05</h3>
+
+                <p>Occupied</p>
+
+            </div>
+
+            <div class="table-card available">
+
+                <h3>T-06</h3>
+
+                <p>Available</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================
+            KITCHEN STATUS
+    ========================== -->
+
+    <div class="card">
+
+        <div class="flex justify-between align-center mb-20">
+
+            <h2>Kitchen Activity</h2>
+
+            <span class="badge badge-warning">
+
+                Busy
+
+            </span>
+
+        </div>
+
+        <div class="flex flex-column gap-20">
+
+            <div class="flex justify-between">
+
+                <span>Order #1005</span>
+
+                <span class="badge badge-warning">
+
+                    Preparing
+
+                </span>
+
+            </div>
+
+            <div class="flex justify-between">
+
+                <span>Order #1006</span>
+
+                <span class="badge badge-success">
+
+                    Ready
+
+                </span>
+
+            </div>
+
+            <div class="flex justify-between">
+
+                <span>Order #1007</span>
+
+                <span class="badge badge-danger">
+
+                    Pending
+
+                </span>
+
+            </div>
+
+            <div class="flex justify-between">
+
+                <span>Order #1008</span>
+
+                <span class="badge badge-warning">
+
+                    Cooking
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================
+        POPULAR ITEMS
+========================== -->
+
+<div class="card mt-40">
+
+    <div class="flex justify-between align-center">
+
+        <h2>Popular Items</h2>
+
+        <button class="btn">
+
+            View Menu
+
+        </button>
+
+    </div>
+
+    <div class="product-grid mt-20">
+
+        <div class="product-card">
+
+            <img src="https://picsum.photos/300/200?random=1">
+
+            <div class="product-info">
+
+                <h3>Chicken Biryani</h3>
+
+                <p class="price">
+
+                    ₹250
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://picsum.photos/300/200?random=2">
+
+            <div class="product-info">
+
+                <h3>Paneer Tikka</h3>
+
+                <p class="price">
+
+                    ₹220
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://picsum.photos/300/200?random=3">
+
+            <div class="product-info">
+
+                <h3>Veg Burger</h3>
+
+                <p class="price">
+
+                    ₹180
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="https://picsum.photos/300/200?random=4">
+
+            <div class="product-info">
+
+                <h3>Cold Coffee</h3>
+
+                <p class="price">
+
+                    ₹150
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ==========================
+        SALES SUMMARY
+========================== -->
+
+<div class="card mt-40">
+
+    <div class="flex justify-between align-center">
+
+        <h2>Today's Sales Summary</h2>
+
+        <button class="btn">
+            Export Report
+        </button>
+
+    </div>
+
+    <div class="dashboard-cards mt-20">
+
+        <div class="stat-card">
+
+            <h3>Total Customers</h3>
+
+            <h1>124</h1>
+
+            <span class="badge badge-success">
+                +15
+            </span>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h3>Completed Orders</h3>
+
+            <h1>98</h1>
+
+            <span class="badge badge-success">
+                92%
+            </span>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h3>Cancelled Orders</h3>
+
+            <h1>3</h1>
+
+            <span class="badge badge-danger">
+                Low
+            </span>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h3>Average Bill</h3>
+
+            <h1>₹540</h1>
+
+            <span class="badge badge-warning">
+                Avg.
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================
+            FOOTER
+========================== -->
+
+<footer class="footer mt-40">
+
+    <p>
+
+        © 2026 Restaurant POS System.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+</section>
+
+</main>
+
+<!-- ==========================
+        JAVASCRIPT
+========================== -->
+
+<script src="assets/js/dashboard.js"></script>
+
+</body>
+</html>
+
+    
+</body>
+</html>
