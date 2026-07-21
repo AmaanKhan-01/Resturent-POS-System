@@ -1,0 +1,98 @@
+/* ==========================================
+   RESTAURANT POS
+   File : reset.css
+========================================== */
+
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Universal Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Body */
+
+body{
+    font-family: var(--font);
+    background: var(--bg-dark);
+    color: var(--text-white);
+    overflow-x: hidden;
+}
+
+/* Images */
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* List */
+
+ul,
+ol{
+    list-style: none;
+}
+
+/* Buttons */
+
+button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select{
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+/* Tables */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-card);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--primary-light);
+}
