@@ -1,0 +1,301 @@
+/* ==========================================
+   RESTAURANT POS
+   File : global.css
+========================================== */
+
+/* ---------- Container ---------- */
+
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* ---------- Section ---------- */
+
+.section{
+    padding: 40px 0;
+}
+
+/* ---------- Heading ---------- */
+
+.title{
+    font-size: var(--fs-2xl);
+    font-weight: var(--fw-bold);
+    color: var(--text-white);
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: var(--fs-md);
+    color: var(--text-gray);
+}
+
+/* ---------- Card ---------- */
+
+.card{
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    box-shadow: var(--shadow-md);
+}
+
+/* ---------- Button ---------- */
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 12px 24px;
+
+    background: var(--primary);
+    color: var(--text-white);
+
+    border-radius: var(--radius-sm);
+
+    font-size: var(--fs-md);
+    font-weight: var(--fw-semibold);
+
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--primary-dark);
+}
+
+.btn-secondary{
+
+    background: var(--bg-light);
+
+}
+
+.btn-secondary:hover{
+
+    background: #475569;
+
+}
+
+.btn-success{
+
+    background: var(--success);
+
+}
+
+.btn-danger{
+
+    background: var(--danger);
+
+}
+
+/* ---------- Input ---------- */
+
+.input-group{
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-bottom: 18px;
+
+}
+
+.input-group label{
+
+    color: var(--text-light);
+    font-size: var(--fs-sm);
+
+}
+
+.input{
+
+    width: 100%;
+
+    padding: 14px 16px;
+
+    background: var(--bg-light);
+
+    color: var(--text-white);
+
+    border: 1px solid transparent;
+
+    border-radius: var(--radius-sm);
+
+    transition: var(--transition);
+
+}
+
+.input:focus{
+
+    border-color: var(--primary);
+
+}
+
+/* ---------- Badge ---------- */
+
+.badge{
+
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    border-radius: 50px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+.badge-success{
+
+    background: rgba(34,197,94,.15);
+
+    color: #22c55e;
+
+}
+
+.badge-warning{
+
+    background: rgba(245,158,11,.15);
+
+    color: #f59e0b;
+
+}
+
+.badge-danger{
+
+    background: rgba(239,68,68,.15);
+
+    color: #ef4444;
+
+}
+
+/* ---------- Flex ---------- */
+
+.flex{
+
+    display: flex;
+
+}
+
+.align-center{
+
+    align-items: center;
+
+}
+
+.justify-between{
+
+    justify-content: space-between;
+
+}
+
+.justify-center{
+
+    justify-content: center;
+
+}
+
+.flex-column{
+
+    flex-direction: column;
+
+}
+
+.gap-10{
+
+    gap: 10px;
+
+}
+
+.gap-20{
+
+    gap: 20px;
+
+}
+
+.gap-30{
+
+    gap: 30px;
+
+}
+
+/* ---------- Grid ---------- */
+
+.grid{
+
+    display: grid;
+
+}
+
+.grid-2{
+
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.grid-3{
+
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.grid-4{
+
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+/* ---------- Margin ---------- */
+
+.mt-10{margin-top:10px;}
+.mt-20{margin-top:20px;}
+.mt-30{margin-top:30px;}
+.mt-40{margin-top:40px;}
+
+.mb-10{margin-bottom:10px;}
+.mb-20{margin-bottom:20px;}
+.mb-30{margin-bottom:30px;}
+.mb-40{margin-bottom:40px;}
+
+/* ---------- Text ---------- */
+
+.text-center{
+
+    text-align: center;
+
+}
+
+.text-right{
+
+    text-align: right;
+
+}
+
+.text-primary{
+
+    color: var(--primary);
+
+}
+
+.text-success{
+
+    color: var(--success);
+
+}
+
+.text-danger{
+
+    color: var(--danger);
+
+}
+
+/* ---------- Cursor ---------- */
+
+.pointer{
+
+    cursor: pointer;
+
+}
