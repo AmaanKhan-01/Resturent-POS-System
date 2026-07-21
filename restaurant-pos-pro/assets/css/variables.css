@@ -1,0 +1,98 @@
+/* ==========================================
+   RESTAURANT POS - DESIGN SYSTEM
+   File : variables.css
+========================================== */
+
+:root {
+
+    /* ===== Brand Colors ===== */
+
+    --primary: #ff7a00;
+    --primary-light: #ff9d3d;
+    --primary-dark: #e56700;
+
+    --secondary: #1f2937;
+    --accent: #22c55e;
+
+    /* ===== Background ===== */
+
+    --bg-dark: #0f172a;
+    --bg-card: #1e293b;
+    --bg-light: #334155;
+
+    /* ===== Text ===== */
+
+    --text-white: #ffffff;
+    --text-light: #cbd5e1;
+    --text-gray: #94a3b8;
+    --text-dark: #1e293b;
+
+    /* ===== Status ===== */
+
+    --success: #16a34a;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --info: #3b82f6;
+
+    /* ===== Border ===== */
+
+    --border: #334155;
+
+    /* ===== Shadow ===== */
+
+    --shadow-sm: 0 2px 8px rgba(0,0,0,.15);
+
+    --shadow-md: 0 8px 20px rgba(0,0,0,.20);
+
+    --shadow-lg: 0 15px 35px rgba(0,0,0,.35);
+
+    /* ===== Radius ===== */
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-xl: 25px;
+    --radius-round: 50%;
+
+    /* ===== Transition ===== */
+
+    --transition: .3s ease;
+
+    /* ===== Font ===== */
+
+    --font: "Poppins", sans-serif;
+
+    /* ===== Font Size ===== */
+
+    --fs-xs: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 22px;
+    --fs-2xl: 28px;
+    --fs-3xl: 36px;
+
+    /* ===== Font Weight ===== */
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* ===== Spacing ===== */
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-7: 32px;
+    --space-8: 40px;
+
+    /* ===== Layout ===== */
+
+    --sidebar-width: 260px;
+    --navbar-height: 70px;
+
+}
